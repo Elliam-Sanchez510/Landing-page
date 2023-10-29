@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/Home.css'
 
-const Acerca: React.FC = (): JSX.Element => {
+const Work: React.FC = (): JSX.Element => {
   return (
     <div className='container'>
-      <h1>Welcome to About</h1>
+      <h1>Welcome to Work</h1>
     </div>
   );
 };
 
-export default Acerca;
+export default Work;

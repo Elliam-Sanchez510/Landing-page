@@ -2,9 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from '../src/components/screens/Navbar';
 import Home from './components/screens/Home';
-import Servicios from './components/screens/Servicios';
-import Acerca from './components/screens/Acerca';
-import Contacto from './components/screens/Contacto';
+import About from './components/screens/About';
+import Work from './components/screens/Work';
+import Services from './components/screens/Services';
+import Contact from './components/screens/Contact';
+
 
 function App() {
   return (
@@ -12,9 +14,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/servicios" element={<Servicios />} />
-        <Route path="/acerca" element={<Acerca />} />
-        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

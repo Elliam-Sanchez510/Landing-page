@@ -1,6 +1,7 @@
 import React from 'react';
+import '../styles/Home.css'
 
-const Contacto: React.FC = (): JSX.Element => {
+const Contact: React.FC = (): JSX.Element => {
   return (
     <div className='container'>
       <h1>Welcome to Contact</h1>
@@ -8,4 +9,4 @@ const Contacto: React.FC = (): JSX.Element => {
   );
 };
 
-export default Contacto;
+export default Contact;

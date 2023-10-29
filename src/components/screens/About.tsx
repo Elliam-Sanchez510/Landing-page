@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Home.css'
 
-const Acerca: React.FC = (): JSX.Element => {
+const About: React.FC = (): JSX.Element => {
   return (
     <div className='container'>
       <h1>Welcome to About</h1>
@@ -9,4 +9,4 @@ const Acerca: React.FC = (): JSX.Element => {
   );
 };
 
-export default Acerca;
+export default About;
