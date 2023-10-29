@@ -1,0 +1,33 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    height: 30px;
+    width: 10%;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .welcome {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .welcome {
+        width: 50%;
+    }
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#autoescrito {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: borrar-reescribir infinite;
+}

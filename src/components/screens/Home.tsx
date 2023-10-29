@@ -1,11 +1,14 @@
 import React from 'react';
-import '../styles/Home.css'
+import '../styles/AutoEscrito.css'
+import WelcomeSection from './Welcome';
+import AboutMe from './AboutMe';
 
 const Home: React.FC = (): JSX.Element => {
   return (
-    <div className='container'>
-      <h1>Welcome to Home</h1>
-    </div>
+    <>
+      <WelcomeSection />
+      <AboutMe />
+    </>
   );
 };
 
