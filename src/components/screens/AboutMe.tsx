@@ -28,6 +28,7 @@ const AboutMe: React.FC = () => {
           mejorar la calidad y la eficiencia de mi trabajo.
         </p>
       </div>
+
     </div>
   );
 };

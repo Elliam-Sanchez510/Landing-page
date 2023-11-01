@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/AutoEscrito.css'
-import WelcomeSection from './Welcome';
 import AboutMe from './AboutMe';
+import Footer from './Footer';
 
 const Home: React.FC = (): JSX.Element => {
   return (
     <>
-      <WelcomeSection />
       <AboutMe />
+      <Footer/>
     </>
   );
 };
