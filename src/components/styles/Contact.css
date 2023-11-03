@@ -51,3 +51,28 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+/* Estilos responsive */
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: calc(100% - 20px);
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: calc(100% - 20px);
+        padding: 8px;
+        font-size: 14px;
+    }
+}
