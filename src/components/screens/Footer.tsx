@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
 
-import whatsapp from '../image/Whatsapp.png';
+import whatsapp from '../image/whatsapp.png';
 import telegram from '../image/telegram.png';
 import gmail from '../image/gmail.png';
 import linkedin from '../image/linkedin.png';
@@ -13,6 +13,7 @@ export default function Footer() {
       <div className="footer-container">
         <div className="social-icons">
           <a href="https://web.whatsapp.com/=+50585960195" className="icon">
+          <img src={whatsapp} alt="whatsapp" /> 
           </a>
           <a href="https://t.me/Snchez_510" target="_blank" className="icon">
             <img src={telegram} alt="telegram" />

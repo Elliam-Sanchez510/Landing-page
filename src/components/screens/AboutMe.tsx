@@ -1,36 +1,34 @@
-import React from 'react';
-import '../styles/AboutMe.css';
+import '../styles/AboutMe.css'
+import foto from '../image/foto.png'
 
-const AboutMe: React.FC = () => {
-  return (
-    <div className="about-me-container">
-      <div className="interactive-paragraph">
-        <p>
-          "¡Hola! Mi nombre es <span className="highlight">Elliam Sánchez</span> soy una persona apasionada por el desarrollo frontend
-          y la creación de experiencias web impactantes. Aunque no he tenido experiencia laboral formal,
-          he invertido tiempo y esfuerzo en desarrollar mis habilidades y conocimientos en este campo.
-        </p>
-      </div>
 
-      <div className="interactive-paragraph">
-        <p>
-          A lo largo de mi trayectoria, he explorado diferentes tecnologías y herramientas relacionadas
-          con el desarrollo frontend, como HTML, CSS y JavaScript, así como frameworks populares como React
-          y Vue.js. He trabajado en diversos proyectos personales que me han permitido adquirir experiencia
-          práctica y mejorar mis habilidades en la creación de interfaces de usuario atractivas y funcionales.
-        </p>
-      </div>
+const AboutMe = () => {
+    return (
+        <div>
+            <section className="inicio" id="inicio">
+                <div className="contenido-seccion">
+                    <div className="info">
+                        <h1>ELLIAM SANCHEZ AGUIRRE</h1>
+                        <h2>CODIFICADOR, DISEÑADOR, FRONTEND</h2>
+                    </div>
+                    <div className="foto">
+                        <img src={foto} alt="foto" />
+                    </div>
+                </div>
+            </section>
 
-      <div className="interactive-paragraph">
-        <p>
-          Soy una persona creativa, curiosa y orientada a los detalles. Me gusta estar al tanto de las últimas
-          tendencias y mejores prácticas en desarrollo frontend, y disfruto explorando nuevas técnicas para
-          mejorar la calidad y la eficiencia de mi trabajo.
-        </p>
-      </div>
+            <section className="sobremi" id="sobremi">
+                <div className="contenido-seccion">
+                    <h2 className="titulo-seccion">Sobre Mi</h2>
+                    <h3>Detalles personales</h3>
 
-    </div>
-  );
+                    <p className="especial">Me dedico a producir ideas creativas y originales para mis clientes</p>
+                    <p className="miperfil">Soy un apasionado de la creatividad y me encanta trabajar en la generación de ideas innovadoras que satisfagan las necesidades de mis clientes. Utilizo mi experiencia y conocimientos para desarrollar soluciones creativas que destaquen y generen un impacto positivo. Mi enfoque se basa en la búsqueda constante de nuevas perspectivas y en la exploración de diferentes enfoques para encontrar las mejores soluciones.</p>
+                </div>
+            </section>
+
+        </div>
+    );
 };
 
 export default AboutMe;
