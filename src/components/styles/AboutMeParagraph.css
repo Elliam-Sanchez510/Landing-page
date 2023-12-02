@@ -1,42 +1,115 @@
-.interactive-paragraph {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    transition: transform 0.3s ease-in-out;
-    overflow: hidden;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    margin-top: 50px;
 }
 
-.interactive-paragraph:hover {
-    transform: scale(1.05);
-    background-color: #5D6D7E;
-    color: #fff;
+@media screen and (max-width: 767px) {
+    .about-me-container {
+        margin-top: 30px;
+    }
 }
 
-.interactive-paragraph p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin: 0;
-}
-
-.interactive-paragraph .highlight {
-    color: black;
-    font-weight: bold;
-}
-
-@media (max-width: 768px) {
-    .interactive-paragraph {
-        padding: 10px;
-        max-width: 400px;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
     }
 
-    .interactive-paragraph p {
-        font-size: 14px;
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    color: #555555;
+}
+
+.download {
+    padding: 18px 30px;
+    font-size: 1.6rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.download:hover {
+    background-color: #00bcd4;
+}
+
+/* .foto */
+.foto {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.foto img {
+    transform: scale(0.9);
+    animation: fadeIn 1.5s ease-in-out forwards, zoomIn 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-me-container {
+        flex-direction: row-reverse;
+    }
+
+    .content-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
     }
 }

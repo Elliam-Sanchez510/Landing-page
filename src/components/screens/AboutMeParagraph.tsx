@@ -1,24 +1,24 @@
 import React from 'react';
 import '../styles/AboutMeParagraph.css';
+import foto from '../image/foto.png';
 
 const AboutMeParagraph: React.FC = () => {
   return (
     <div className="about-me-container">
-      <div className="interactive-paragraph">
-        <p>
-          "¡Hola! Mi nombre es <span className="highlight">Elliam Sánchez</span> soy una persona apasionada por el desarrollo frontend
-          y la creación de experiencias web impactantes. Aunque no he tenido experiencia laboral formal,
-          he invertido tiempo y esfuerzo en desarrollar mis habilidades y conocimientos en este campo.
-        </p>
-      </div>
 
-      <div className="interactive-paragraph">
-        <p>
-          A lo largo de mi trayectoria, he explorado diferentes tecnologías y herramientas relacionadas
-          con el desarrollo frontend, como HTML, CSS y JavaScript, así como frameworks populares como React
-          y Vue.js. He trabajado en diversos proyectos personales que me han permitido adquirir experiencia
-          práctica y mejorar mis habilidades en la creación de interfaces de usuario atractivas y funcionales.
-        </p>
+      <div className="content-wrapper">
+        <div className="text-content">
+          <h2>Hello, I'm</h2>
+          <h1>Elliam Sánchez</h1>
+          <p>Hello, I'm Elliam Sánchez. A passionate front-end developer who specializes in <br />
+            translating design concepts into simple, interactive web experiences using HTML, CSS.</p>
+
+          <button className='download'>Download CV</button>
+        </div>
+
+        <div className="foto">
+          <img src={foto} alt="foto" />
+        </div>
       </div>
 
     </div>
