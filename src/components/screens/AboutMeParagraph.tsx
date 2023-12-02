@@ -21,14 +21,6 @@ const AboutMeParagraph: React.FC = () => {
         </p>
       </div>
 
-      <div className="interactive-paragraph">
-        <p>
-          Soy una persona creativa, curiosa y orientada a los detalles. Me gusta estar al tanto de las últimas
-          tendencias y mejores prácticas en desarrollo frontend, y disfruto explorando nuevas técnicas para
-          mejorar la calidad y la eficiencia de mi trabajo.
-        </p>
-      </div>
-
     </div>
   );
 };

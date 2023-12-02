@@ -4,9 +4,9 @@ import '../styles/Habilidades.css';
 const habilidades = [
     { nombre: 'HTML/CSS', porcentaje: 80 },
     { nombre: 'JavaScript', porcentaje: 70 },
-    { nombre: 'WordPress', porcentaje: 75 },
-    { nombre: 'Photoshop', porcentaje: 70 },
+    { nombre: 'React', porcentaje: 50 },
     { nombre: 'React Native', porcentaje: 60 },
+    { nombre: 'Photoshop', porcentaje: 70 },
     { nombre: 'Illustrator', porcentaje: 75 }
 ];
 
