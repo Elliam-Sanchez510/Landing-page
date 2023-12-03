@@ -5,6 +5,7 @@ const Home: React.FC = (): JSX.Element => {
   return (
     <>
       <AboutMe />
+  
     </>
   );
 };
