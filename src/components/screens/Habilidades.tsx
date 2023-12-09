@@ -4,10 +4,9 @@ import '../styles/Habilidades.css';
 const habilidades = [
     { nombre: 'HTML/CSS', porcentaje: 80 },
     { nombre: 'JavaScript', porcentaje: 70 },
-    { nombre: 'React', porcentaje: 50 },
-    { nombre: 'React Native', porcentaje: 60 },
-    { nombre: 'Photoshop', porcentaje: 70 },
-    { nombre: 'Illustrator', porcentaje: 75 }
+    { nombre: 'React', porcentaje: 60 },
+    { nombre: 'React Native', porcentaje: 70 },
+    { nombre: 'NextJS', porcentaje: 70 },
 ];
 
 const Habilidades = () => {
