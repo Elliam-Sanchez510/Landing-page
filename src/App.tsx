@@ -5,21 +5,17 @@ import Home from './components/screens/Home';
 import About from './components/screens/About';
 import Work from './components/screens/Work';
 import Services from './components/screens/Services';
-import Contact from './components/screens/Contact';
-import Maintenance from './components/screens/Maintenance';
 
 
 function App() {
   return (
     <Router>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
-      <Route path="/" element={<Maintenance />} /> 
-        {/* <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/work" element={<Work />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </Router>
   );

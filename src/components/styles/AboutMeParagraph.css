@@ -1,5 +1,6 @@
 body {
-    background-color: #001136; /*Verificar este color porque los demas compontes lo estan heredando*/
+    background-color: #001136;
+    /*Verificar este color porque los demas compontes lo estan heredando*/
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
@@ -86,10 +87,8 @@ span {
     }
 }
 
-
-
 .button {
-    color: #00FFFF; 
+    color: #00FFFF;
     border: 6px solid #00FFFF;
     border-radius: 10px;
     padding: 10px 20px;
@@ -108,4 +107,35 @@ span {
     color: black;
     background-color: #00FFFF;
     filter: drop-shadow(0 0 15px #00FFFF) contrast(2) brightness(2);
+}
+
+/* AboutMeParagraph.css */
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.copy-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.copy-button:hover {
+    background-color: #0056b3;
 }

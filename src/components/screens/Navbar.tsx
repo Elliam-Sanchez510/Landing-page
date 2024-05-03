@@ -23,7 +23,6 @@ const Navbar: React.FC = () => {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/work">Work</Link></li>
                     <li><Link to="/services">Services</Link></li>
-                    <li><Link to="/contact">Contacto</Link></li>
                 </ul>
             </nav>
         </header>
