@@ -139,3 +139,38 @@ span {
 .copy-button:hover {
     background-color: #0056b3;
 }
+
+.contact-section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #ebebff;
+    flex-wrap: wrap;
+}
+
+.contact-section a {
+    display: flex;
+    align-items: center;
+    color: #00FFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+.contact-section svg {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

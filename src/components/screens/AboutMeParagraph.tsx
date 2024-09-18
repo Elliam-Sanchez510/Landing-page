@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/AboutMeParagraph.css';
 import foto from '../image/foto.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const AboutMeParagraph: React.FC = () => {
 
@@ -35,12 +37,26 @@ const AboutMeParagraph: React.FC = () => {
         </div>
 
         <button className='button' onClick={descargarCV}>Descargar CV</button>
+
+        <div className="contact-section">
+          <a href="https://wa.me/85960195" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp
+          </a>
+          <a href="https://github.com/Elliam-Sanchez510" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faGithub} /> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/elliam-s%C3%A1nchez-958aaa269/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+          </a>
+          <a href="https://www.instagram.com/sanchez.elliam28/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} /> Instagram
+          </a>
+        </div>
       </div>
 
       <div className="image-container">
         <img src={foto} alt="foto" />
       </div>
-
     </section>
   );
 };
