@@ -11,7 +11,7 @@ const AboutMe = () => {
                         <h2>CODER, DESIGNER, FRONTEND</h2>
                     </div>
                     <div className="foto">
-                        <img src={photo} alt="photo" />
+                        <img src={photo}/>
                     </div>
                 </div>
             </section>
