@@ -11,7 +11,7 @@ const AboutMe = () => {
                         <h2>CODER, DESIGNER, FRONTEND</h2>
                     </div>
                     <div className="foto">
-                        <img src={photo}/>
+                        <img src={photo} alt="" />
                     </div>
                 </div>
             </section>
@@ -21,7 +21,9 @@ const AboutMe = () => {
                     <h2 className="titulo-seccion">About Me</h2>
                     <h3>Personal Details</h3>
 
-                    <p className="especial">I focus on producing creative and original ideas for my clients</p>
+                    <p className="especial">
+                        I focus on producing creative and original ideas for my clients.
+                    </p>
                     <p className="miperfil">
                         I am passionate about creativity and love working on generating innovative ideas that meet my clients' needs.
                         I use my experience and knowledge to develop creative solutions that stand out and have a positive impact.
