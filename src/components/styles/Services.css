@@ -5,6 +5,10 @@
     animation: fadeIn 1s ease;
 }
 
+.services-container h1 {
+    color: white;
+}
+
 .service {
     background-color: #f9f9f9;
     padding: 20px;

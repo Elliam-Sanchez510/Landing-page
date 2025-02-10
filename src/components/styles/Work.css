@@ -49,3 +49,8 @@
     color: #0056b3;
     text-decoration: underline;
 }
+
+/* Solo el h1 "Current Projects" en blanco */
+.proyectos-container h1 {
+    color: white;
+}

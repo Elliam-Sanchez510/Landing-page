@@ -19,8 +19,8 @@ const Habilidades = () => {
     return (
         <section className={`habilidades ${loaded ? 'animado' : ''}`} id="habilidades">
             <div className="contenido-seccion">
-                <h2 className="titulo-seccion">Mis habilidades</h2>
-                <h3>Me especializo en</h3>
+                <h2 className="titulo-seccion">My Skills</h2>
+                <h3>I specialize in</h3>
 
                 {habilidades.map((habilidad, index) => (
                     <div className="fila" key={index}>

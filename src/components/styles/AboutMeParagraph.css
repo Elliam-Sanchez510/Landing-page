@@ -1,6 +1,5 @@
 body {
     background-color: #001136;
-    /*Verificar este color porque los demas compontes lo estan heredando*/
     margin: 0;
     font-family: 'Arial', sans-serif;
 }
@@ -35,6 +34,12 @@ body {
     font-size: 32px;
     font-weight: 700;
     color: #ebebff;
+}
+
+.content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
 }
 
 .content h1 {
@@ -109,7 +114,6 @@ span {
     filter: drop-shadow(0 0 15px #00FFFF) contrast(2) brightness(2);
 }
 
-/* AboutMeParagraph.css */
 
 .email {
     display: flex;
@@ -166,7 +170,6 @@ span {
     margin-right: 8px;
     font-size: 24px;
 }
-
 
 @media screen and (max-width: 768px) {
     .contact-section {

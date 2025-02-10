@@ -4,26 +4,25 @@ import '../styles/Services.css';
 const services = [
   {
     id: 1,
-    title: 'Diseño Web',
-    description: 'Diseño y desarrollo de interfaces web atractivas y funcionales, utilizando las últimas tendencias de diseño y tecnologías frontend.'
+    title: 'Web Design',
+    description: 'Design and development of attractive and functional web interfaces, using the latest design trends and frontend technologies.'
   },
   {
     id: 2,
-    title: 'Desarrollo Frontend',
-    description: 'Creación de interfaces de usuario interactivas y responsivas para sitios , utilizando las últimas tecnologías frontend.'
+    title: 'Frontend Development',
+    description: 'Creation of interactive and responsive user interfaces for websites, utilizing the latest frontend technologies.'
   },
   {
     id: 3,
-    title: 'Desarrollo de Aplicaciones Móviles',
-    description: 'Desarrollo frontend de aplicaciones móviles para plataformas Android e iOS, enfocándose en la experiencia del usuario y la usabilidad.'
+    title: 'Mobile App Development',
+    description: 'Frontend development of mobile applications for Android and iOS platforms, focusing on user experience and usability.'
   }
 ];
-
 
 const Services: React.FC = (): JSX.Element => {
   return (
     <div className="services-container">
-      <h1>Nuestros Servicios</h1>
+      <h1>Our Services</h1>
       {services.map((service) => (
         <div className="service" key={service.id}>
           <h2>{service.title}</h2>
